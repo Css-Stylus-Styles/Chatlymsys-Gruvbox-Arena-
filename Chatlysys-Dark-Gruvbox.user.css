@@ -362,6 +362,37 @@
 	
 	
 	
+	/*CODE STYLES*/
+	
+	
+	.gradio-container-4-21-0 .md .token.selector, .gradio-container-4-21-0 .md .token.attr-name, .gradio-container-4-21-0 .md .token.string, .gradio-container-4-21-0 .md .token.char, .gradio-container-4-21-0 .md .token.builtin, .gradio-container-4-21-0 .md .token.inserted {
+    color: #b8bb26;
+}
+	
+	/*Css property name */
+		.gradio-container-4-21-0 .md .token.property, .gradio-container-4-21-0 .md .token.tag, .gradio-container-4-21-0 .md .token.boolean, .gradio-container-4-21-0 .md .token.number, .gradio-container-4-21-0 .md .token.constant, .gradio-container-4-21-0 .md .token.symbol, .gradio-container-4-21-0 .md .token.deleted {
+    color: #d3869b;
+}
+	
+	/*FUnction name */
+	.gradio-container-4-21-0 .md .token.function, .gradio-container-4-21-0 .md .token.class-name {
+    color: #83a598;
+}
+	
+	/*Comments*/
+	.gradio-container-4-21-0 .md .token.comment, .gradio-container-4-21-0 .md .token.prolog, .gradio-container-4-21-0 .md .token.doctype, .gradio-container-4-21-0 .md .token.cdata {
+    color: #928374;
+}
+	
+	
+	/*IMportnat in css */
+	.gradio-container-4-21-0 .md .token.regex, .gradio-container-4-21-0 .md .token.important, .gradio-container-4-21-0 .md .token.variable {
+    color: #fe8019;
+}
+	
+	
+	
+	
 	
 	
 	
