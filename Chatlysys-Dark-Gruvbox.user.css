@@ -336,13 +336,12 @@
 	
 	
 	
-	
-	
+
 	
 	
 	
 	/*Hide stuff here */
-	
+		/*Lower div hidden with all the info and other stuff */
 	.hide-container.svelte-90oupt {
 
 		
@@ -353,12 +352,11 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
+	/*Send button Hover and ease in  on the background */
+
+.primary.svelte-cmf5ev {
+  transition: border-color 0.2s ease-in, background 0.4s ease-in;
+}
 	
 	
 	
@@ -565,9 +563,9 @@
     --button-large-text-size: var(--text-lg);
     --button-large-text-weight: 600;
     --button-primary-background-fill: linear-gradient(to bottom right, var(--primary-100), var(--primary-300));
-    --button-primary-background-fill-hover: linear-gradient(to bottom right, var(--primary-100), var(--primary-200));
+    --button-primary-background-fill-hover: linear-gradient(to bottom right, #fb4934 , #cc241d );
     --button-primary-border-color: var(--primary-200);
-    --button-primary-border-color-hover: var(--button-primary-border-color);
+    --button-primary-border-color-hover: #fb4934 !important;
     --button-primary-text-color: var(--primary-600);
     --button-primary-text-color-hover: var(--button-primary-text-color);
     --button-secondary-background-fill: linear-gradient(to bottom right, var(--neutral-100), var(--neutral-200));
