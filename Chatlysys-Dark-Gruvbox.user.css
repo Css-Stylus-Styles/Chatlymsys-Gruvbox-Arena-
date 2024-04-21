@@ -1,4 +1,3 @@
-
 /* ==UserStyle==
 @name           chat.lmsys.org - Apr 2024
 @namespace      github.com/openstyles/stylus
@@ -342,12 +341,9 @@
 	
 	/*Hide stuff here */
 		/*Lower div hidden with all the info and other stuff */
-	.hide-container.svelte-90oupt {
-
-		
-		display: none !important ; 
-	}
-	
+	.padded.hide-container:not(#model_selector_md) {
+  display: none !important;
+}
 	
 	
 	
@@ -721,9 +717,16 @@
 	
 	
 	
+	/*category text*/
+	span.svelte-1gfkn6j:not(.has-info) {
+    color: #fe8019 !important ; 
+}
 	
 	
-	
+	/*Ranking of LLMs*/
+	span.svelte-z9gpua {
+		color: #b8bb26 !important ; 
+}
 	
 	
 	
@@ -742,4 +745,3 @@
 }
 	
 	
-
