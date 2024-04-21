@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           chat.lmsys.org - Apr 2024
 @namespace      github.com/openstyles/stylus
@@ -717,6 +718,12 @@
 	
 	
 	
+	/*Code token attr */
+	
+	.gradio-container-4-21-0 .md .token.atrule, .gradio-container-4-21-0 .md .token.attr-value, .gradio-container-4-21-0 .md .token.keyword {
+    color: #8ec07c !important;
+}
+	
 	/*category text*/
 	span.svelte-1gfkn6j:not(.has-info) {
     color: #fe8019 !important ; 
@@ -745,3 +752,4 @@
 }
 	
 	
+
